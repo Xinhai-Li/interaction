@@ -1,0 +1,19 @@
+Package: interactionFPIR
+Title: Fit fractional-power interaction regression (FPIR) for regression y ~ x1 + x2 + x1^M * x2^N
+Version: 0.0.2.0000
+Authors@R: 
+    person(given = "Xinhai",
+           family = "Li",
+           role = c("aut", "cre"),
+           email = "xinhai_li_edu@126.com",
+           comment = c(ORCID = "0000-0003-4514-0149"))
+Description: Estimate the values of exponents (M and N) in Fractional-power interaction regression (FPIR)£¬the formula is: y ~ x1 + x2 + x1^M * x2^N.  Return model parameters such as regression coefficients, sum of squares of the interaction term, and total R squares of the model.
+License: `use_gpl3_license()` 
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Depends: 
+    R (>= 3.0.2)
+Imports:
+    R2WinBUGS
